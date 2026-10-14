@@ -8,6 +8,8 @@ The calculator demonstrates the report's formulas with a shared whiteness input;
 
 ## Development
 
+The branding uses the supplied SVG wordmark and emblem in `public/logo/`. Theme tokens in `src/app/landing.css` are derived from their cyan (`#00D4FF`), green (`#01B87A`), amber (`#FFB622`), and coral (`#FF7373`). Cyan is the primary accent, with a darker cyan for readable text and focus states on light surfaces. The app icon uses the supplied emblem.
+
 ```powershell
 cd C:\Development\brinex-vision
 npm run dev

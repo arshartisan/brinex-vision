@@ -62,13 +62,14 @@ function SectionHeading({
 function Brand() {
   return (
     <a href="#" className="brand" aria-label="Brinex Vision home">
-      <span className="brand-symbol">
-        <Focus size={23} strokeWidth={1.8} aria-hidden="true" />
-      </span>
-      <span>
-        brinex<span className="brand-light">vision</span>
-        <span className="brand-period">.</span>
-      </span>
+      <Image
+        src="/logo/brinex-vision-light.svg"
+        alt="Brinex Vision"
+        width={4388}
+        height={1122}
+        className="brand-logo"
+        unoptimized
+      />
     </a>
   );
 }
@@ -318,7 +319,7 @@ export default function Home() {
                 </div>
                 <div className="split-labels">
                   <div>
-                    <span className="class-dot pure" />
+                    <span className="class-dot training" />
                     <strong>70%</strong>
                     <p>Training · 1,366</p>
                   </div>
